@@ -54,7 +54,7 @@ Codigo, exemplos
 * **Guilherme Rodrigues** - *FrontEnd,BackEnd e BD* - [Guilherme_Rodrigues](https://github.com/GuiAlvesR)
 * **Gustavo Costa** - *FrontEnd e BackEnd* - [Gustavo Costa](https://github.com/GustavPcosta)
 * **Gustavo Guimarães** - *FrontEnd e BackEnd* - [Gustavo Guimarães]()
-* **Guilherme Oliveira** - ** - [Guilherme Oliveira]()
+* **Guilherme Oliveira** - ** - [Guilherme Oliveira](https://github.com/Guilherme403)
 * **Gleiceanne Marques** - ** - [Gleiceanne Marques]()
 * **Gustavo Carvalho** - ** - [Gustavo Carvalhoa]()
 
