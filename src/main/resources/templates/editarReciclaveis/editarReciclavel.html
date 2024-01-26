@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Editar Reciclável</title>
+<link rel="stylesheet" href="./loginobj.css">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+	crossorigin="anonymous">
+
+<link rel="apple-touch-icon" sizes="180x180"
+	href="../../src/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32"
+	href="../../src/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16"
+	href="../../src/icons/favicon-16x16.png">
+<link rel="manifest" href="../src/icons/site.webmanifest">
+
+</head>
+
+	<style>
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #888;
+	border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #555;
+}
+
+.selecao {
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+
+.logo {
+	height: 65px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.navbar {
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 998;
+	min-height: 60px;
+	background-color: #006400;
+	color: white;
+	transition: all .3s;
+}
+
+svg {
+	width: 100px;
+	margin-right: 20px;
+	height: 55px;
+	border-radius: 50px;
+}
+
+.body {
+	background-color: #d8ef9f6c;
+}
+
+a {
+	color: #ffff !important;
+}
+
+form>button {
+	transition: transform 0.8s;
+	padding-top: 300px;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+.btn {
+	margin-top: 10px;
+}
+
+.dropdown-item {
+	color: black !important;
+}
+
+.img-background {
+	background-image: url(../../assets/Design\ sem\ nome\ \(9\).jpg);
+	background-size: cover;
+	padding-bottom: 40%;
+	height: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-top: 5%;
+}
+
+.img-background h1 {
+	margin-left: 22px;
+}
+
+.dflex {
+	margin-top: 2%;
+	background-image: url(../../assets/textura-reciclar.avif);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 25px 32px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.dflex img {
+	margin-top: 5%;
+	width: 30%;
+	height: 30%;
+}
+
+.first-image {
+	margin-top: 15px;
+}
+
+.text {
+	margin-top: 2%;
+	display: flex;
+	flex-direction: column;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+.body-inside-section a {
+	text-decoration: none;
+}
+
+.content-footer {
+	margin-top: 40px;
+}
+
+.body-inside-section p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	text-align: center;
+	color: #324A6D;
+}
+
+.text {
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.text p {
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.188rem;
+	color: rgb(51, 51, 51);
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-size: 22px;
+}
+
+.text-1 {
+	margin-left: 16px;
+}
+
+.row {
+	justify-content: center;
+	align-items: center;
+}
+
+@media ( max-width : 768px) {
+	.dflex {
+		flex-direction: column;
+		padding: 0px 10px 32px;
+	}
+	.dflex img {
+		width: 100%;
+		height: auto;
+	}
+	.body-inside-section {
+		left: 0;
+	}
+}
+</style>
+<body>
+<div th:replace="~{fragments/navbar :: navbar}"></div>
+
+	<section class="img-background"></section>
+	<div class="dflex">
+		<div class="text">
+			<h2>
+				<b>Editar Recicláveis</b>
+			</h2>
+
+			<div class="row">
+				<div class="col-md-6">
+
+					<form
+						th:action="@{/reciclaveis/editar/{idReciclavel}(idReciclavel=${reciclavel.idReciclavel})}"
+						th:object="${reciclavel}" method="post">
+
+						<div class="mb-3">
+							<label for="selecao1" class="form-label"
+								style="font-weight: 500;">ID</label> <input type="text"
+								class="border-0 px-1 py-1 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+								id="id" th:field="*{idReciclavel}" readonly></input>
+						</div>
+
+						<div class="mb-3">
+							<label for="selecao1" class="form-label"
+								style="font-weight: 500;">Tipo de Reciclavel(Material)</label> <input
+								type="text"
+								class="border-0 px-1 py-1 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+								id="tipo" th:field="*{tipo}" required></input>
+						</div>
+
+						<div class="col-md-6">
+							<div class="mb-3">
+								<label for="selecao1" class="form-label"
+									style="font-weight: 500;">Quantidade</label> <input
+									type="number"
+									class="border-0 px-1 py-1 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									id="quantidade" th:field="*{quantidade}" required></input>
+							</div>
+						</div>
+
+
+
+						<button type="submit" class="btn btn-success">Editar</button>
+						<a href="../../reciclaveis"><button type="button"
+								class="btn btn-success">Voltar</button></a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
