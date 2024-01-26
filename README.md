@@ -2,15 +2,17 @@
 
 # Conect Coleta
 
-Uma breve descrição do projeto aqui.
+Um Projeto baseado em empresas de reciclagens
 
 ## 🔥 Introdução
 
 Coloque aqui as instruções e quais são os objetivos desse projeto, funcionalidades.
+Objetivo: Reunir possiveis associações de reciclagens numa plataforma, tendo a disponibilização de catadores e doadores para mais rapidez e eficacia na hora da reciclagem
 
 ### ⚙️ Pré-requisitos
 
-Coloque aqui passo a passo que precisa para instalar o projeto e como instalá-lo.
+1- Instalar o Eclipse IDE ou a IDE do Spring Dev Tools
+2- Utilizar o Visual Studio Code
 
 ```
 Pode inserir exemplos.
@@ -30,14 +32,6 @@ Passo 2:
 Codigo, exemplos
 ```
 
-
-## 🛠️ Executando os testes (caso tenha testes)
-
-Explique como executar os testes automatizados para este sistema.
-
-```
-Coloque exemplos
-```
 
 ## 📦 Tecnologias usadas:
 
@@ -59,8 +53,14 @@ Coloque exemplos
 
 * **Guilherme Rodrigues** - *FrontEnd,BackEnd e BD* - [Guilherme_Rodrigues](https://github.com/GuiAlvesR)
 * **Gustavo Costa** - *FrontEnd e BackEnd* - [Gustavo Costa](https://github.com/GustavPcosta)
+* **Gustavo Guimarães** - *FrontEnd e BackEnd* - [Gustavo Guimarães]()
+* **Guilherme Oliveira** - ** - [Guilherme Oliveira]()
+* **Gleiceanne Marques** - ** - [Gleiceanne Marques]()
+* **Gustavo Carvalho** - ** - [Gustavo Carvalhoa]()
+
 
 ## 💡 Expressões de gratidão
 
-* Um agradecimento publicamente.
+* Agradecemos a Recode por ter essa oportunidade de participar desse Bootcamp Full Stack,pelos nosso professor Flávio Lima e nossos Monitores [Gabriel Mesquita](https://github.com/zailua) e [Bruna Lins](https://github.com/bruna-lins)
+  
 * Para suporte, mande um email para squad18recodepro@gmail.com.
