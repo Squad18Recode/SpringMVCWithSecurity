@@ -56,7 +56,7 @@ Codigo, exemplos
 * **Gustavo Guimarães** - *FrontEnd e BackEnd* - [Gustavo Guimarães]()
 * **Guilherme Oliveira** - ** - [Guilherme Oliveira](https://github.com/Guilherme403)
 * **Gleiceanne Marques** - ** - [Gleiceanne Marques]()
-* **Gustavo Carvalho** - ** - [Gustavo Carvalhoa]()
+* **Gustavo Carvalho** - ** - [Gustavo Carvalho]()
 
 
 ## 💡 Expressões de gratidão
