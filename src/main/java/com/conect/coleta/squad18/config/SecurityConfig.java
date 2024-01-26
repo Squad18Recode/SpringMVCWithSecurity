@@ -24,6 +24,16 @@ public class SecurityConfig {
 		return new BCryptPasswordEncoder();
 	}
 
+	
+
+protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+    auth
+        .inMemoryAuthentication()
+            .withUser("admin").password(passwordEncoder().encode("admin")).roles("ADMIN")
+            .and()
+            .withUser("user").password(passwordEncoder().encode("user")).roles("COMUM");
+}
+
 	@Bean
 	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 		http.csrf(csrf -> csrf.disable())
