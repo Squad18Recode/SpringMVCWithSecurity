@@ -64,3 +64,12 @@ Codigo, exemplos
 * Agradecemos a Recode por ter essa oportunidade de participar desse Bootcamp Full Stack,pelos nosso professor Flávio Lima e nossos Monitores [Gabriel Mesquita](https://github.com/zailua) e [Bruna Lins](https://github.com/bruna-lins)
   
 * Para suporte, mande um email para squad18recodepro@gmail.com.
+
+  ## Modelo Banco de Dados
+
+  ### Conceitual
+![BD-conceitual](https://github.com/Squad18Recode/SpringMVCWithSecurity/assets/141359733/50ca8f4d-1ea8-411c-9243-55f678c32813)
+
+
+  ### Logico
+  ![BD-lógico](https://github.com/Squad18Recode/SpringMVCWithSecurity/assets/141359733/d55edd9c-5240-48b8-aef4-b24dc6e82f35)
