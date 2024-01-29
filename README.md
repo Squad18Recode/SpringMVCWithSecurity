@@ -17,31 +17,7 @@ tem a desvalorização do trabalho que eles desempenham porque não são reconhe
 tem a insalubridade que eles enfrentam durante o desempenho das atividades deles, porque na maioria das vezes as pessoas não fazem a separação do que é reciclável de orgânico, e os catadores ficam revirando lixo, com plástico misturado com comida, com papel higiênico, ou então nos lixões catando o lixo reciclável e vemos também uma questão de discriminação e desrespeito, que mais uma vez é a desvalorização do catador ser visto como mendigo ou drogado na sociedade e o desrespeito pela pessoa que tá desempenhando o trabalho dela da separação do lixo e de não respeitar a pessoa, de xingar, de mandar se afastar até por questão de como o lixo tá todo misturado na calçada e acaba fazendo uma certa bagunça separando o que já devia tá separado, então tem muita discriminação nesse sentido de desrespeito pela pessoa.
 
 O que faremos/Objetivo:
-Então o nosso site, o nosso aplicativo, foi pensado justamente como um uber para o gerador do lixo, a pessoa individual, uma casa, ou um prédio, ou um condomínio, ou uma empresa que informa que tem o lixo pra ser coletado e o catador se cadastra no aplicativo e vai receber a mensagem, dizendo que tem lixo para ser coletado, então o catador já vai no ponto certo que vai até o lixo que já vai tá separado e aí entra toda essa questão da insalubridade. A pessoa sabe que vai ter o lixo coletado e pretendemos também promover uma coleta mais eficiente porque quando a pessoa já sabe onde vai ter o lixo pra ser coletado, não precisa ficar perambulando pelas ruas, então acreditamos que o nosso aplicativo pode ter eficiência por que já vai em pontos que sabe que vai ter o lixo e pretendemos também transmitir mais informações a respeito de meio ambiente e reciclagem através de um blog que também fica no nosso aplicativo, com informações sobre meio ambiente em geral, como tá a reciclagem, limpeza da cidade.Reunir possiveis associações de reciclagens numa plataforma, tendo a disponibilização de catadores e doadores para mais rapidez e eficacia na hora da reciclagem
-
-
-### ⚙️ Pré-requisitos
-
-1- Instalar o Eclipse IDE ou a IDE do Spring Dev Tools
-2- Utilizar o Visual Studio Code
-
-```
-Pode inserir exemplos.
-```
-
-### 🔨 Guia de instalação
-
-Explique aqui um passo a passo mostrando como deve executar para ter um ambiente de desenvolvimento em execução, desde instalar e rodar o projeto.
-
-Etapas para instalar:
-
-```
-Codigo, exemplos
-```
-Passo 2:
-```
-Codigo, exemplos
-```
+Então o nosso site, o nosso aplicativo, foi pensado justamente como um uber para o gerador do lixo, a pessoa individual, uma casa, ou um prédio, ou um condomínio, ou uma empresa que informa que tem o lixo pra ser coletado e o catador se cadastra no aplicativo e vai receber a mensagem, dizendo que tem lixo para ser coletado, então o catador já vai no ponto certo que vai até o lixo que já vai tá separado e aí entra toda essa questão da insalubridade. A pessoa sabe que vai ter o lixo coletado e pretendemos também promover uma coleta mais eficiente porque quando a pessoa já sabe onde vai ter o lixo pra ser coletado, não precisa ficar perambulando pelas ruas, então acreditamos que o nosso aplicativo pode ter eficiência por que já vai em pontos que sabe que vai ter o lixo e pretendemos também transmitir mais informações a respeito de meio ambiente e reciclagem através de um blog que também fica no nosso aplicativo, com informações sobre meio ambiente em geral, como tá a reciclagem, limpeza da cidade.
 
 
 ## 📦 Tecnologias usadas:
@@ -64,7 +40,7 @@ Codigo, exemplos
 
 * **Guilherme Rodrigues** - *FrontEnd,BackEnd e BD* - [Guilherme_Rodrigues](https://github.com/GuiAlvesR)
 * **Gustavo Costa** - *FrontEnd e BackEnd* - [Gustavo Costa](https://github.com/GustavPcosta)
-* **Gustavo Guimarães** - *FrontEnd e BackEnd* - [Gustavo Guimarães]()
+* **Gustavo Guimarães** - *FrontEnd e BackEnd* - [Gustavo Guimarães](https://www.linkedin.com/in/gustavo-guimar%C3%A3es-189aa5288)
 * **Guilherme Oliveira** - *Pesquisa e desenvolvimento do pitch* - [Guilherme Oliveira](https://github.com/Guilherme403)
 * **Gleiceanne Marques** - *Pesquisa e desenvolvimento do pitch* - [Gleiceanne Marques]()
 * **Gustavo Carvalho** - *Pesquisa e desenvolvimento do pitch* - [Gustavo Carvalho]()
